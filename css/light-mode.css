@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #dc4f72;
+  margin-bottom: 5px;
+}
+
+.btn {
+  color: #dc4f72;
+  border-color: #dc4f72;
+  line-height: 52px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0px 30px;
+  transition: all 0.3s ease-out;
+}
