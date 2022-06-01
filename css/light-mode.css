@@ -290,3 +290,119 @@ button.collapsed span:nth-child(1) {
   border: 1px solid #eee;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
 }
+
+/* ABOUT */
+.about {
+  background-color: #f7f9fc;
+  margin-top: 8px;
+}
+
+.about h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #2c3038;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 24.4px;
+  color: #5a5a5a;
+}
+
+.about img {
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  transition: all 0.3s ease-in-out;
+}
+
+.about img:hover {
+  transform: translateY(-0.5rem);
+}
+
+.about .btn__about {
+  background-color: #dc4f72;
+  color: #fff;
+}
+
+.about .btn__about:hover {
+  color: #fff;
+  background-color: #d62f58;
+  border-color: #cf2952;
+}
+
+/* STATISTIC */
+.statistic {
+  background-color: #f7f9fc;
+}
+
+.statistic .stats {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+  border: 1px solid #eee;
+}
+
+.stats h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24.5px;
+  color: #2c3038;
+}
+
+.stats p:first-of-type {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  color: #dc4f72;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* COMMIT */
+.commit {
+  min-height: 480px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.33)
+    ),
+    url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.commit .content-left {
+  max-width: 550px;
+}
+
+.commit .content-left h2 {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
+}
+
+.commit .content-left p {
+  font-size: 16px;
+  color: #eee;
+  line-height: 24.5px;
+}
+
+.commit .content-left .btn {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.commit .content-left .btn:hover {
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
