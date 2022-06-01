@@ -449,6 +449,12 @@ button.collapsed span:nth-child(1) {
   .navbar-nav {
     padding: 20px 0;
   }
+
+  /* CAROUSEL */
+  .carousel .content-left h3 {
+    font-size: 40px;
+    line-height: 45px;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -503,6 +509,23 @@ button.collapsed span:nth-child(1) {
   .dropdown-menu::before {
     left: 47.5%;
   }
+
+  /* CAROUSEL */
+  .carousel {
+    margin-top: 70px;
+  }
+
+  /* TOOL */
+  .tool .title h3 {
+    margin-bottom: 0;
+  }
+
+  /* ABOUT */
+
+  /* COMMIT */
+  .commit .content-left .btn {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 667px) {
@@ -541,6 +564,11 @@ button.collapsed span:nth-child(1) {
     padding: 0 25px;
     margin: 0 auto;
   }
+
+  /* COMMIT */
+  .commit .content-left .btn {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -556,6 +584,11 @@ button.collapsed span:nth-child(1) {
 
   .nav-item .btn {
     margin-left: 0;
+  }
+
+  /* CAROUSEL */
+  .carousel {
+    margin-top: 90px;
   }
 }
 
