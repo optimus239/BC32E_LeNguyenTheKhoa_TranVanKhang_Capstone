@@ -269,3 +269,109 @@ object-position: top;
 .owl-carousel .owl-dots .owl-dot.active{
   background-color: #dc4f72;
 }
+/* ready */
+.ready .title{
+  max-width: 750px;
+  margin: auto;
+}
+.ready .title h1{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.ready .title p{
+  color: rgba(0, 0, 0, 0.637);
+}
+.ready .ready-center .active{
+  background-color:#dc4f72;
+  color: #eee;
+}
+.ready .ready-center a:hover{
+  background-color: #f0194fdc;
+  color: #eee;
+}
+/* footer */
+footer {
+  padding: 4rem 0;
+  background-color: rgb(247 249 252);
+}
+footer .main-top{
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+}
+footer .main-top .row .item h3{
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+footer .main-top .row .item li{
+  list-style-type: none;
+  margin-bottom: 1rem;
+  
+}
+footer .main-top .row .item a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.692);
+}
+footer .main-top .row .item a:hover{
+  color: #dc4f72;
+}
+footer .main-top .row .item .detail{
+  background-color: rgb(255 255 255);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+
+}
+footer .main-top .row .item .detail input {
+  font-weight: 700;
+  padding: 13px 20px;
+  width: 70%;
+  border-radius: 0.5rem;
+  border: unset;
+  outline: unset;
+  background-color: rgb(247 249 252);
+  margin-right: 5px;
+}
+footer .main-top .row .item .detail button{
+  border-radius: 0.5rem;
+  border: unset;
+  background-color: #dc4f72;
+  color: #fcffff;
+  text-align: center;
+  padding: 0 40px;
+  font-size: 1rem;
+}
+footer .main-top .row .item .detail h4{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.74);
+}
+footer .main-top .row .item .detail p{
+  margin-top: 1rem;
+  color:rgba(0, 0, 0, 0.74);
+}
+footer .main-bottom span a{
+  color: #2c3038;
+  text-decoration: none;
+}
+footer .main-bottom span a:hover{
+  color: #dc4f72;
+}
+footer .main-bottom .icon li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 2rem;
+}
+footer .main-bottom .icon ul{
+  text-align: center;
+}
+footer .main-bottom .icon{
+  align-items: center;
+}
+footer .main-bottom .icon span{
+  color: #2c3038;
+  font-size: 15px;
+}
+footer .main-bottom .icon span:hover{
+  color: #dc4f72;
+}
