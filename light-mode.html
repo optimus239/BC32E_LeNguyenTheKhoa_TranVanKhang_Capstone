@@ -27,6 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./libs/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/light-mode.css" />
   </head>
   <body>
@@ -169,7 +170,73 @@
             </div>
         </div>
     </section>
-    <section class="testimonial"></section>
+    <section class="testimonial">
+      <div class="container">
+        <div class="title">
+          <div class="title text-center">
+            <span>OUR CLIENTS TESTIMONIALS</span>
+            <h1>What People Say</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+          </div>
+        </div>
+        <div class="testimonial-center">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="slider">
+                <div class="item-left">
+                  <img src="./images/team3.jpg" alt="team3jpg">
+                </div>
+                <i class="fa fa-quote-left"></i>
+                <div class="item-right">
+                  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id minus dolorum enim assumenda, repudiandae neque error dolorem repellendus inventore facere deserunt necessitatibus, corporis laboriosam architecto. Ipsum quas voluptatibus similique.</span>
+                  <h3>Isabella Min</h3>
+                  <p>Company name</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider">
+                <div class="item-left">
+                  <img src="./images/team4.jpg" alt="team3jpg">
+                </div>
+                <i class="fa fa-quote-left"></i>
+                <div class="item-right">
+                  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id minus dolorum enim assumenda, repudiandae neque error dolorem repellendus inventore facere deserunt necessitatibus, corporis laboriosam architecto. Ipsum quas voluptatibus similique.</span>
+                  <h3>Isabella Min</h3>
+                  <p>Company name</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider">
+                <div class="item-left">
+                  <img src="./images/team5.jpg" alt="team3jpg">
+                </div>
+                <i class="fa fa-quote-left"></i>
+                <div class="item-right">
+                  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id minus dolorum enim assumenda, repudiandae neque error dolorem repellendus inventore facere deserunt necessitatibus, corporis laboriosam architecto. Ipsum quas voluptatibus similique.</span>
+                  <h3>Isabella Min</h3>
+                  <p>Company name</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider">
+                <div class="item-left">
+                  <img src="./images/team6.jpg" alt="team3jpg">
+                </div>
+                <i class="fa fa-quote-left"></i>
+                <div class="item-right">
+                  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id minus dolorum enim assumenda, repudiandae neque error dolorem repellendus inventore facere deserunt necessitatibus, corporis laboriosam architecto. Ipsum quas voluptatibus similique.</span>
+                  <h3>Isabella Min</h3>
+                  <p>Company name</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="ready"></section>
     <footer></footer>
 
@@ -221,5 +288,26 @@
     <script>
       $(".counter").countUp();
     </script>
+    <script src="./libs/owl.carousel.min.js"></script> 
+    <script>
+        $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:false,
+      infinite: true,
+      dots: true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:2
+          }
+      }
+  })
+      </script>
   </body>
 </html>
