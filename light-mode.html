@@ -89,7 +89,86 @@
       </div>
     </section>
     <section class="faq"></section>
-    <section class="project"></section>
+    <section class="project">
+      <div class="container">
+        <div class="title text-center">
+          <span>FEATURED CASES</span>
+          <h1>Completed Projects</h1>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+        </div>
+        <div class="project-center">
+          <!-- Nav tabs -->
+            <ul class=" row nav nav-tabs">
+              <li class="nav-item col-lg-4 col-sm-12" id="lick1">
+                <a class="nav-link active" id="slick1" data-toggle="tab" href="#one">Project One</a>
+              </li>
+              <li class="nav-item col-lg-4 col-sm-12" id="lick2">
+                <a class="nav-link" id="slick2" data-toggle="tab" href="#two">Project Two</a>
+              </li>
+              <li class="nav-item col-lg-4 col-sm-12" id="lick3">
+                <a class="nav-link" id="slick3" data-toggle="tab" href="#three">Project Three</a>
+              </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane container active" id="one">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Why a visual identity system is more memorable</h4>
+                        <p class="card-text">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                        <button class="btn">Know More</button>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-lg-6">
+                    <div class="thumb">
+                      <img src="./images/b4.jpg" class="img-fluid" alt="b4jpg">
+                    </div>
+                  </div>              
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="two">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="thumb">
+                      <img src="./images/b5.jpg"  class="img-fluid" alt="b5jpg">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Why a visual identity system is more memorable</h4>
+                        <p class="card-text">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                        <button class="btn">Know More</button>
+                      </div>
+                    </div>
+                  </div>              
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="three">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Why a visual identity system is more memorable</h4>
+                        <p class="card-text">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                        <button class="btn">Know More</button>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-lg-6">
+                    <div class="thumb">
+                      <img src="./images/b6.jpg"  class="img-fluid" alt="b4jpg">
+                    </div>
+                  </div>              
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
     <section class="testimonial"></section>
     <section class="ready"></section>
     <footer></footer>
@@ -100,6 +179,31 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var tagSlick1=document.getElementById('slick1');
+      var tagSlick2=document.getElementById('slick2');
+      var tagSlick3=document.getElementById('slick3');
+      var tagL1=document.getElementById('lick1');
+      var tagL2=document.getElementById('lick2');
+      var tagL3=document.getElementById('lick3');
+      tagSlick3.onclick=function(){
+        tagL3.style.borderBottom=' 4px solid #dc4f72';
+        tagL2.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+        tagL1.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+      }
+      tagSlick1.onclick=function(){
+        tagL1.style.borderBottom=' 4px solid #dc4f72';
+        tagL2.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+        tagL3.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+      }
+     tagSlick2.onclick=function(){
+       tagL2.style.borderBottom=' 4px solid #dc4f72';
+       tagL1.style.borderBottom='4px solid rgba(128, 128, 128, 0.575)';
+       tagL3.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+     }
+     
+      
+     </script>
     <script src="./libs/jquery.countup.min.js"></script>
     <!-- WAYPOINT -->
     <script

@@ -119,3 +119,77 @@ html {
 .solution .card:hover i{
   transform: translateX(10px);
 }
+/* project */
+.project{
+  padding: 5rem 0;
+}
+.project .title{
+  max-width: 750px;
+  margin: auto;
+}
+.project .title span{
+  font-weight: 700;
+  color: rgb(220 79 114);
+}
+.project .title h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.project .title p{
+  margin-bottom: 4rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+.project-center .tab-content .row  .card-title{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.project-center .tab-content .row  .card-text{
+  color: rgba(0, 0, 0, 0.671);
+  padding-bottom: 1rem;
+}
+.project-center .tab-content .thumb img{
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+}
+.nav-tabs{
+  justify-content: space-around;
+}
+.project-center .nav{
+  margin-bottom: 2rem;
+}
+.project-center .nav .nav-item{
+  width: calc(100%/3);
+  text-align: center;
+}
+.project-center .nav a{
+  text-decoration: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #2c3038d7;
+  width: 100%;
+  display: inline-block;
+}
+.nav-tabs .nav-link.active{
+  color: #dc4f72;
+  background-color:unset;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav .nav-item{
+  border-bottom: 4px solid rgba(128, 128, 128, 0.575);
+}
+.project-center .card{
+  border: unset;
+}
+.project-center .card button{
+  font-size: 1.1rem;
+}
+.project-center .thumb:hover img{
+  transform: translateY(-10px);
+}
+.card .btn:hover{
+  background-color: #dc4f72;
+  color: white;
+}
