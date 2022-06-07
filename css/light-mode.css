@@ -725,6 +725,125 @@ button.collapsed span:nth-child(1) {
 .solution .card:hover i{
   transform: translateX(10px);
 }
+/* FAQ */
+.faq {
+  background-color: #f7f9fc;
+}
+
+.faq .title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: #5a5a5a;
+}
+
+.faq__content .faq-image {
+  position: sticky;
+  top: 80px;
+}
+
+.faq__content .faq-image img {
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  transition: all 0.3s ease-in-out;
+}
+
+.faq__content .faq-image img:hover {
+  transform: translateY(-5px);
+}
+
+.card {
+  max-width: 750px;
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  border-bottom: 1px solid #eee;
+}
+
+.card__content .card-header {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.card__content .btn {
+  border: none;
+  text-decoration: none;
+  box-shadow: none;
+  width: 633px;
+  height: 70px;
+  padding: 25px 50px 25px 20px;
+  position: relative;
+}
+
+.card__content .card-title h2 {
+  font-size: 20px;
+  line-height: 1;
+  color: #2c3038;
+  margin-bottom: 0;
+}
+
+.card__content .card-body {
+  padding: 0 50px 25px 20px;
+}
+
+.card__content .card-body p {
+  font-size: 16px;
+  line-height: 24.5px;
+  color: #5a5a5a;
+  max-height: 800px;
+  margin: 0;
+  transform: translate(0, 50%);
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+}
+
+.card__content .show .card-body p {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.collapsing {
+  transition-duration: 0.1s;
+}
+
+.card__content .btn {
+  width: 100%;
+}
+
+.card__content .btn i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 25px;
+  top: 16px;
+}
+
+.card__content .btn i::before,
+.card__content .btn i::after {
+  content: "";
+  position: absolute;
+  background-color: #212529;
+  width: 3px;
+  height: 9px;
+  transition: all 0.25s ease-in-out;
+}
+
+.card__content .btn.collapsed i::before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+.card__content .btn.collapsed i::after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+.card__content .btn i::before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+
+.card__content .btn i::after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
 /* project */
 .project{
   padding: 5rem 0;
