@@ -914,7 +914,7 @@ button.collapsed span:nth-child(1) {
 .project-center .thumb:hover img{
   transform: translateY(-10px);
 }
-.card .btn:hover{
+.project .card .btn:hover{
   background-color: #dc4f72;
   color: white;
 }
