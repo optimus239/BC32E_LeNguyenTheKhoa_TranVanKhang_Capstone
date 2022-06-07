@@ -250,6 +250,7 @@
         </div>   
     </div>
     </section>
+    <!-- SOLUTIONS -->
     <section class="solution">
       <div class="container">
         <div class="title text-center">
@@ -296,13 +297,15 @@
                   <a href="#">Know More</a>
                   <i class="fa fa-arrow-right"></i>
                 </div>
-                </div>
-                </div>
+              </div>
+            </div>
           </div>
-          </div>
+        </div>
 </div>
     </section>
+    <!-- FAQ -->
     <section class="faq"></section>
+    <!-- PROJECTS -->
     <section class="project">
       <div class="container">
         <div class="title text-center">
@@ -385,6 +388,7 @@
         </div>
         
     </section>
+    <!-- TESTIMONIALS -->
     <section class="testimonial">
       <div class="container">
         <div class="title">
@@ -452,6 +456,7 @@
         </div>
       </div>
     </section>
+    <!-- READY -->
     <section class="ready p-5">
       <div class="container text-center">
         <div class="title m-auto pb-5">
@@ -463,9 +468,8 @@
           <a href="#" class="btn m-2 active">GET STARTED</a>
         </div>
       </div>
-      
     </section>
-    <section class="ready"></section>
+    <!-- FOOTER -->
     <footer>
       <div class="container">
         <div class="main-top">
@@ -547,6 +551,31 @@
     </a>
     <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      var tagSlick1=document.getElementById('slick1');
+      var tagSlick2=document.getElementById('slick2');
+      var tagSlick3=document.getElementById('slick3');
+      var tagL1=document.getElementById('lick1');
+      var tagL2=document.getElementById('lick2');
+      var tagL3=document.getElementById('lick3');
+      tagSlick3.onclick=function(){
+        tagL3.style.borderBottom=' 4px solid #dc4f72';
+        tagL2.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+        tagL1.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+      }
+      tagSlick1.onclick=function(){
+        tagL1.style.borderBottom=' 4px solid #dc4f72';
+        tagL2.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+        tagL3.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+      }
+     tagSlick2.onclick=function(){
+       tagL2.style.borderBottom=' 4px solid #dc4f72';
+       tagL1.style.borderBottom='4px solid rgba(128, 128, 128, 0.575)';
+       tagL3.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
+     }
+     
+      
+     </script>
     <script src="./libs/jquery.countup.min.js"></script>
     <!-- WAYPOINT -->
     <script
