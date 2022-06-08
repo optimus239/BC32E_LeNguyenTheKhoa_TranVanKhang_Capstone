@@ -169,8 +169,7 @@
           </div>
         </div>
       </div>
-    </section> 
-
+    </section>
     <!-- ABOUT -->
     <section class="about py-5">
       <div class="container mt-3 py-lg-3">
@@ -249,14 +248,13 @@
           </div>
         </div>   
     </div>
-    </section>
-    <!-- SOLUTIONS -->
+    </section>>
     <section class="solution">
       <div class="container">
         <div class="title text-center">
           <span>WE ARE HERE FOR YOU</span>
           <h2>Explore Solutions</h2>
-          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+          <p>Vestibulum ante ipsum primis in `ucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
         </div>
         <div class="solution-center">
           <div class="row">
@@ -301,11 +299,9 @@
             </div>
           </div>
         </div>
-</div>
+      </div>
     </section>
-    <!-- FAQ -->
     <section class="faq"></section>
-    <!-- PROJECTS -->
     <section class="project">
       <div class="container">
         <div class="title text-center">
@@ -385,10 +381,7 @@
               </div>
             </div>
         </div>
-        </div>
-        
     </section>
-    <!-- TESTIMONIALS -->
     <section class="testimonial">
       <div class="container">
         <div class="title">
@@ -456,7 +449,6 @@
         </div>
       </div>
     </section>
-    <!-- READY -->
     <section class="ready p-5">
       <div class="container text-center">
         <div class="title m-auto pb-5">
@@ -469,7 +461,6 @@
         </div>
       </div>
     </section>
-    <!-- FOOTER -->
     <footer>
       <div class="container">
         <div class="main-top">
@@ -548,7 +539,7 @@
     <!-- BACK TO TOP -->
     <a href="#" class="backtotop cd-top text-replace js-cd-top">
       <i class="fa-solid fa-angle-up"></i>
-    </a>
+    </a>  
     <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
@@ -573,8 +564,6 @@
        tagL1.style.borderBottom='4px solid rgba(128, 128, 128, 0.575)';
        tagL3.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
      }
-     
-      
      </script>
     <script src="./libs/jquery.countup.min.js"></script>
     <!-- WAYPOINT -->
@@ -623,53 +612,26 @@
     <!-- BACKTOTOP JS -->
     <script src="./libs/util.js"></script>
     <script src="./libs/main.js"></script>
-
+    <script src="./libs/owl.carousel.min.js"></script> 
     <script>
-      var tagSlick1=document.getElementById('slick1');
-      var tagSlick2=document.getElementById('slick2');
-      var tagSlick3=document.getElementById('slick3');
-      var tagL1=document.getElementById('lick1');
-      var tagL2=document.getElementById('lick2');
-      var tagL3=document.getElementById('lick3');
-      tagSlick3.onclick=function(){
-        tagL3.style.borderBottom=' 4px solid #dc4f72';
-        tagL2.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
-        tagL1.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
-      }
-      tagSlick1.onclick=function(){
-        tagL1.style.borderBottom=' 4px solid #dc4f72';
-        tagL2.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
-        tagL3.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
-      }
-     tagSlick2.onclick=function(){
-       tagL2.style.borderBottom=' 4px solid #dc4f72';
-       tagL1.style.borderBottom='4px solid rgba(128, 128, 128, 0.575)';
-       tagL3.style.borderBottom=' 4px solid rgba(128, 128, 128, 0.575)';
-     }
-     
-      
-     </script>
-	 
-	 <script src="./libs/owl.carousel.min.js"></script> 
-    <script>
-        $('.owl-carousel').owlCarousel({
-      loop:true,
-      margin:10,
-      nav:false,
-      infinite: true,
-      dots: true,
-      responsive:{
-          0:{
-              items:1
-          },
-          600:{
-              items:1
-          },
-          1000:{
-              items:2
-          }
-      }
-  })
-      </script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    infinite: true,
+    dots: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+    </script>
   </body>
 </html>
