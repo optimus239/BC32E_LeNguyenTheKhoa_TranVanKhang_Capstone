@@ -795,11 +795,7 @@ footer .main-bottom .icon span:hover {
 
 /* RESPONSIVE */
 @media screen and (min-width: 375px) and (max-width: 575.98px) {
-  .btn {
-    line-height: 44px;
-    padding: 0 20px;
-  }
-
+  /* GLOBAL */
   .title h3 {
     font-size: 32px;
     line-height: 42px;
@@ -840,6 +836,14 @@ footer .main-bottom .icon span:hover {
   .carousel .content-left h3 {
     font-size: 40px;
     line-height: 45px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  /* GLOBAL */
+  .btn {
+    line-height: 44px;
+    padding: 0 20px;
   }
 }
 
