@@ -968,6 +968,10 @@ footer .main-bottom .icon span:hover {
     text-align: left;
   }
 
+  .nav-item .nav-link::before {
+    bottom: 14px;
+  }
+
   .nav-item .btn {
     margin-left: 0;
   }
