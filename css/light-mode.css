@@ -198,7 +198,7 @@ button.collapsed span:nth-child(1) {
 }
 
 .navbar-toggler:focus {
-  border: 3px solid #e59700;
+  border: 3px solid #000;
 }
 
 /* CAROUSEL */
