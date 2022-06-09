@@ -863,7 +863,7 @@ footer .main-bottom span a:hover {
 footer .main-bottom .icon li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 footer .main-bottom .icon ul {
   text-align: center;
@@ -1053,6 +1053,11 @@ footer .main-bottom .icon span:hover {
   .testimonial .title {
     text-align: center;
   }
+
+  /* footer */
+  footer .main-top .row .item .detail button {
+    width: 27%;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 667px) {
@@ -1112,8 +1117,8 @@ footer .main-bottom .icon span:hover {
   }
 
   /* footer */
-  footer .main-bottom span {
-    text-align: center;
+  footer .main-bottom .coppyright {
+    margin-bottom: 16px;
   }
 }
 
@@ -1154,6 +1159,11 @@ footer .main-bottom .icon span:hover {
   }
   .testimonial .title {
     text-align: center;
+  }
+
+  /* footer */
+  footer .main-bottom .coppyright {
+    text-align: left !important;
   }
 }
 
