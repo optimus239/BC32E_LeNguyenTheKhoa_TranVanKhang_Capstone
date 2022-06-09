@@ -432,6 +432,7 @@ button.collapsed span:nth-child(1) {
   border-bottom: 1px solid rgba(128, 128, 128, 0.288);
 }
 .solution .card {
+  width: 360px;
   padding-bottom: 1.5rem;
   overflow: hidden;
   border-radius: 8px 8px 5px 5px;
@@ -688,7 +689,7 @@ button.collapsed span:nth-child(1) {
 .project-center .thumb:hover img {
   transform: translateY(-10px);
 }
-.card .btn:hover {
+.project .card .btn:hover {
   background-color: #dc4f72;
   color: white;
 }
@@ -1035,6 +1036,23 @@ footer .main-bottom .icon span:hover {
   .commit .content-left .btn {
     margin-top: 30px;
   }
+
+  /* solution */
+  .solution .container {
+    width: 100%;
+  }
+  .solution .solution-center .item .card {
+    width: 100%;
+  }
+
+  /* testimonial */
+  .testimonial-center .item .slider {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .testimonial .title {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 667px) {
@@ -1078,6 +1096,16 @@ footer .main-bottom .icon span:hover {
   .commit .content-left .btn {
     margin-top: 40px;
   }
+
+  /* solution */
+  .solution .solution-center .item3 .card {
+    margin-left: 55%;
+  }
+
+  /* footer */
+  footer .main-bottom span {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1102,6 +1130,21 @@ footer .main-bottom .icon span:hover {
   /* CAROUSEL */
   .carousel {
     margin-top: 90px;
+  }
+
+  /* solution */
+  .solution .solution-center .item .card {
+    max-width: 100%;
+    margin-left: 0%;
+  }
+
+  /* testimonials */
+  .testimonial-center .item .slider {
+    grid-template-columns: 1fr 0.5fr 5fr;
+    text-align: left;
+  }
+  .testimonial .title {
+    text-align: center;
   }
 }
 
