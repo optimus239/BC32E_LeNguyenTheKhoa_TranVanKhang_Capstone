@@ -535,78 +535,73 @@ button.collapsed span:nth-child(1) {
   transform: translateX(10px);
 }
 /* project */
-.project {
-  padding: 5rem 0;
+.project{
+  background-color: rgb(255 255 255);
+  padding: 4rem 0;
 }
-.project .title {
-  max-width: 750px;
+.project .title{
   margin: auto;
+  
 }
-.project .title span {
-  font-weight: 700;
-  color: rgb(220 79 114);
-}
-.project .title h1 {
-  font-size: 3rem;
+.project .title span{
+  color: #cf2952;
   font-weight: 700;
 }
-.project .title p {
-  margin-bottom: 4rem;
-  color: rgba(0, 0, 0, 0.87);
+.project .title h1{
+  font-weight: 800;
 }
-.project-center .tab-content .row .card-title {
-  font-size: 2rem;
-  font-weight: 700;
+.project #horizontalTab .resp-tab-active{
+  border: none;
+  margin-bottom: -1px;
+  border-bottom: 3px #dc4f72 solid;
+  color: #dc4f72;
 }
-.project-center .tab-content .row .card-text {
-  color: rgba(0, 0, 0, 0.671);
-  padding-bottom: 1rem;
-}
-.project-center .tab-content .thumb img {
-  border-radius: 0.5rem;
-  transition: all 0.5s;
-}
-.nav-tabs {
-  justify-content: space-around;
-}
-.project-center .nav {
-  margin-bottom: 2rem;
-}
-.project-center .nav .nav-item {
+.project-center .row li{
   width: calc(100% / 3);
   text-align: center;
-}
-.project-center .nav a {
-  text-decoration: none;
-  border: none;
   font-size: 1.5rem;
   font-weight: 800;
-  color: #2c3038d7;
-  width: 100%;
-  display: inline-block;
+  border-bottom: 3px gainsboro solid;
 }
-.nav-tabs .nav-link.active {
-  color: #dc4f72;
-  background-color: unset;
+
+.resp-tabs-container .project__content {
+  padding: 15px;
+  margin: 20px 0;
+  border: none;
 }
-.nav-tabs {
-  border-bottom: none;
+
+.resp-tabs-container h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #2c3038;
+  margin-bottom: 16px;
 }
-.nav .nav-item {
-  border-bottom: 4px solid rgba(128, 128, 128, 0.575);
+
+.resp-tabs-container p {
+  font-size: 16px;
+  line-height: 24.5px;
+  color: #5a5a5a;
+  margin-bottom: 16px;
 }
-.project-center .card {
-  border: unset;
+
+.resp-tabs-container .btn {
+  margin-top: 16px;
 }
-.project-center .card button {
-  font-size: 1.1rem;
-}
-.project-center .thumb:hover img {
-  transform: translateY(-10px);
-}
-.project .card .btn:hover {
+
+.resp-tabs-container .btn:hover {
+  color: #fff;
   background-color: #dc4f72;
-  color: white;
+  border-color: #dc4f72;
+}
+
+.resp-tabs-container img {
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resp-tabs-container img:hover {
+  transform: translateY(-0.5rem);
 }
 /* testimonial */
 .testimonial {
@@ -1140,6 +1135,12 @@ footer .main-bottom .icon span:hover {
   .testimonial .title{
     text-align: center;
   }
+  .testimonial .title h1{
+    font-size: 2rem;
+  }
+  .testimonial .title span{
+    font-size: 14px;
+  }
 }
 @media screen and (min-width:992px){
   .testimonial-center .item .slider{
@@ -1154,5 +1155,20 @@ footer .main-bottom .icon span:hover {
 @media screen and (min-width:768px){
   footer .main-bottom span{
     text-align: center;
+  }
+}
+/* project */
+@media screen and (max-width:768px){
+  h2.resp-accordion{
+    font-size: 1.3rem;
+    background-color: #5a5a5a13;
+    border: 1px solid gray ;
+  }
+  .project .title h1{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .ready .title h1{
+    font-size: 2.2rem;
   }
 }
