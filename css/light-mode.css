@@ -1102,6 +1102,15 @@ footer .main-bottom .icon span:hover {
     margin-left: 55%;
   }
 
+  /* testimonials */
+  .testimonial-center .item .slider {
+    grid-template-columns: 1fr 0.5fr 5fr;
+    text-align: left;
+  }
+  .testimonial .title {
+    text-align: center;
+  }
+
   /* footer */
   footer .main-bottom span {
     text-align: center;
