@@ -825,7 +825,7 @@ p {
   width: 40px;
   margin: 0 5px;
   height: 5px;
-  background-color: grey;
+  background-color: #fff;
 }
 .owl-carousel .owl-dots .owl-dot.active {
   background-color: #dc4f72;
