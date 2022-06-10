@@ -944,6 +944,10 @@ footer .main-bottom .icon span:hover {
     line-height: 36px;
   }
 
+  header.navbar-fixed {
+    height: auto;
+  }
+
   .navbar-nav {
     text-align: center;
   }
