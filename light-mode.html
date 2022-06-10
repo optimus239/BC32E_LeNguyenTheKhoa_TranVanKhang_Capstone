@@ -27,6 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/easy-responsive-tabs.css">
     <link rel="stylesheet" href="./libs/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/light-mode.css" />
   </head>
@@ -546,76 +547,58 @@
           <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
         </div>
         <div class="project-center">
-          <!-- Nav tabs -->
-            <ul class=" row nav nav-tabs">
-              <li class="nav-item col-lg-4 col-sm-12" id="lick1">
-                <a class="nav-link active" id="slick1" data-toggle="tab" href="#one">Project One</a>
-              </li>
-              <li class="nav-item col-lg-4 col-sm-12" id="lick2">
-                <a class="nav-link" id="slick2" data-toggle="tab" href="#two">Project Two</a>
-              </li>
-              <li class="nav-item col-lg-4 col-sm-12" id="lick3">
-                <a class="nav-link" id="slick3" data-toggle="tab" href="#three">Project Three</a>
-              </li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div class="tab-pane container active" id="one">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h4 class="card-title">Why a visual identity system is more memorable</h4>
-                        <p class="card-text">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
-                        <button class="btn">Know More</button>
+          <div class="row mt-5">
+            <div class="col-lg-10 mx-auto">
+              <div id="horizontalTab">
+                <ul class="resp-tabs-list">
+                  <li class="resp-tab-active">Project One</li>
+                  <li>Project Two</li>
+                  <li>Project Three</li>
+                </ul>
+                <div class="resp-tabs-container pt-1">
+                  <div class="project__content">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h3>Why a visual identity system is more memorable</h3>
+                        <p>Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                        </p>
+                        <a href="#" class="btn">KNOW MORE</a>
                       </div>
-                    </div>
-                  </div> 
-                  <div class="col-lg-6">
-                    <div class="thumb">
-                      <img src="./images/b4.jpg" class="img-fluid" alt="b4jpg">
-                    </div>
-                  </div>              
-                </div>
-              </div>
-              <div class="tab-pane container fade" id="two">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="thumb">
-                      <img src="./images/b5.jpg"  class="img-fluid" alt="b5jpg">
+                      <div class="col-md-6 mt-5 mt-md-0">
+                        <img src="./images/b4.jpg" class="img-fluid" alt="">
+                      </div>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h4 class="card-title">Why a visual identity system is more memorable</h4>
-                        <p class="card-text">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
-                        <button class="btn">Know More</button>
+                  <div class="project__content">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img src="./images/b5.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-md-6 mt-5 mt-md-0">
+                        <h3>Make website that looks Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                        </p>
+                        <a href="#" class="btn">KNOW MORE</a>
                       </div>
                     </div>
-                  </div>              
-                </div>
-              </div>
-              <div class="tab-pane container fade" id="three">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h4 class="card-title">Why a visual identity system is more memorable</h4>
-                        <p class="card-text">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
-                        <button class="btn">Know More</button>
+                  </div>
+                  <div class="project__content">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h3>Why a visual identity system is more memorable</h3>
+                        <p>Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                        </p>
+                        <a href="#" class="btn">KNOW MORE</a>
+                      </div>
+                      <div class="col-md-6 mt-5 mt-md-0">
+                        <img src="./images/b6.jpg" class="img-fluid" alt="">
                       </div>
                     </div>
-                  </div> 
-                  <div class="col-lg-6">
-                    <div class="thumb">
-                      <img src="./images/b6.jpg"  class="img-fluid" alt="b4jpg">
-                    </div>
-                  </div>              
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
     </section>
     <!-- TESTIMONIALS -->
@@ -714,7 +697,7 @@
                 <li><a href="#">Contact Us</a></li>
               </ul>
             </div>
-            <div class="col-lg-2 col-sm-12 col-md-4 item">
+            <div class="col-lg-2 col-sm-12 col-md-4 mt-md-0 mt-4 item">
               <h3>Useful Links</h3>
               <ul>
                 <li><a href="#">Case Studies</a></li>
@@ -724,7 +707,7 @@
                 <li><a href="#">Our People</a></li>
               </ul>
             </div>
-            <div class="col-lg-2 col-sm-12 col-md-4 item">
+            <div class="col-lg-2 col-sm-12 col-md-4 mt-md-0 mt-4 item">
               <h3>Our Services</h3>
               <ul>
                 <li><a href="#">Privacy Policy</a></li>
@@ -734,7 +717,7 @@
                 <li><a href="#">Our People</a></li>
               </ul>
             </div>
-            <div class="col-lg-6 col-sm-12 col-md-12 item">
+            <div class="col-lg-6 col-sm-12 col-md-12 mt-lg-0 mt-5 item">
               <h3>Newsletter</h3>
               <div class="detail">
                 <h4>Get latest updates and offers.</h4>
@@ -747,12 +730,12 @@
             </div>
           </div>
         </div>
-        <div class="main-bottom pt-4">
+        <div class="main-bottom mt-5 pt-4">
           <div class="row">
             <div class="coppyright col-lg-9 col-sm-12 text-center">
               <span>© 2020 Masterwork. All rights reserved | Designed by <a href="#"> W3Layouts</a></span>
             </div>
-            <div class="col-lg-3 col-sm-12 icon">
+            <div class="col-lg-3 col-sm-12 mt-lg-0 mt-3 icon">
                 <ul>
                   <li>
                     <a href="#"><span class="fab fa-facebook"></span></a>
@@ -872,5 +855,22 @@
     }
 })
     </script>
+    <script src="./libs/easy-responsive-tabs.js"></script>
+    <script>
+      $(document).ready(function () {
+      $('#horizontalTab').easyResponsiveTabs  ({
+      type: 'default', //Types: default, vertical, accordion           
+      width: 'auto', //auto or any width like 600px
+      fit: true,   // 100% fit in a container
+      closed: 'accordion', // Start closed if in accordion view
+      activate: function(event) { // Callback function if tab is switched
+      var $tab = $(this);
+      var $info = $('#tabInfo');
+      var $name = $('span', $info);
+      $name.text($tab.text());
+      $info.show();
+      }
+      });
+      });</script>
   </body>
 </html>
