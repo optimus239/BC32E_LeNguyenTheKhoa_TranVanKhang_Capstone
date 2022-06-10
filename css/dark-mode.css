@@ -1027,6 +1027,10 @@ footer .main-bottom .icon span:hover {
     font-size: 32px;
     line-height: 42px;
   }
+
+  .solution .card {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
