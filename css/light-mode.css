@@ -348,6 +348,11 @@ button.collapsed span:nth-child(1) {
   border: 1px solid #eee;
 }
 
+.statistic .stats:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+  transition: 0.3s ease;
+}
+
 .stats h4 {
   font-size: 16px;
   font-weight: 700;
