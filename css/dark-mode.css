@@ -235,7 +235,7 @@ button.collapsed span:nth-child(1) {
   font-size: 50px;
   line-height: 57.5px;
   font-weight: 700;
-  color: #ddd;
+  color: #fff;
 }
 
 .carousel .content-left p {
@@ -357,8 +357,13 @@ button.collapsed span:nth-child(1) {
   background-color: #222;
   padding: 2rem;
   border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgba(39, 37, 37, 0.09);
+  /* border: 1px solid #eee; */
+}
+
+.statistic .stats:hover {
   box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
-  border: 1px solid #eee;
+  transition: 0.3s ease;
 }
 
 .stats h4 {
