@@ -919,12 +919,6 @@ footer .main-bottom .icon span:hover {
 
 /* RESPONSIVE */
 @media screen and (min-width: 375px) and (max-width: 575.98px) {
-  /* GLOBAL */
-  .tool .title h3 {
-    font-size: 32px;
-    line-height: 42px;
-  }
-
   /* HEADER */
   header {
     height: auto;
@@ -946,6 +940,11 @@ footer .main-bottom .icon span:hover {
 
   header.navbar-fixed {
     height: auto;
+  }
+
+  header.navbar-fixed .navbar {
+    padding: 10px 0;
+    transition: all 0.4s ease;
   }
 
   .navbar-nav {
@@ -983,6 +982,12 @@ footer .main-bottom .icon span:hover {
     line-height: 45px;
   }
 
+  /* TOOL */
+  .tool .title h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
   /* solution */
   .solution .title h2 {
     font-size: 32px;
@@ -991,6 +996,47 @@ footer .main-bottom .icon span:hover {
 
   .solution .card {
     width: 100%;
+  }
+
+  /* project */
+  h2.resp-accordion:first-child {
+    border-top: none !important;
+  }
+
+  h2.resp-accordion {
+    /* border: none; */
+    border-bottom: 1px solid #c1c1c1;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 15px;
+    background: none rgb(245, 245, 245);
+  }
+
+  .resp-tabs-container {
+    border: 1px solid #f5f5f5;
+    border-color: rgb(193, 193, 193);
+    padding: 0 !important;
+  }
+
+  h2.resp-accordion.resp-tab-active {
+    background: none white !important;
+  }
+
+  h2.resp-tab-active {
+    border-bottom: 3px solid #dc4f72 !important;
+  }
+
+  .resp-tabs-container h3 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 14px;
+  }
+
+  .resp-tabs-container p {
+    font-size: 16px;
+    line-height: 24.5px;
+    color: #5a5a5a;
+    margin-bottom: 16px;
   }
 
   /* testimonials */
